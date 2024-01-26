@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* Estilos del encabezado */
+.header {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos de la sección de experiencia */
+.experience {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.experience ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Estilos de la sección de habilidades */
+.skills {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.skills table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.skills table, .skills th, .skills td {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+}
+
+/* Estilos de la sección de intereses */
+.interests {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del formulario de contacto */
+.contact {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.contact button[type="submit"]:hover {
+    background-color: #0056b3;
+}
